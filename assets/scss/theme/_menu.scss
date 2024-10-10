@@ -1594,3 +1594,20 @@ header {
         }
     }
 }
+
+@media (max-width: 380px) {
+    .brand-logo {
+        img {
+            height: 35px;
+        }
+    }
+}
+
+@media (max-width: 280px) {
+    .brand-logo {
+        img {
+            height: 25px;
+        }
+        margin-right: 10px;
+    }
+}
