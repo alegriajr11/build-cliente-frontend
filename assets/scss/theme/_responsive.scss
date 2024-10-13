@@ -232,21 +232,7 @@
             }
         }
     }
-    // dark //
-    .dark {
-        .collection-product-wrapper {
-            .product-top-filter {
-                .product-filter-content {
-                    .collection-view {
-                        border-color: $dark-border;
-                    }
-                    .product-page-filter {
-                        border-color: $dark-border;
-                    }
-                }
-            }
-        }
-    }
+
 }
 
 @media(max-width: 1430px) and (min-width: 1368px) {
@@ -1396,60 +1382,6 @@
                 li {
                     padding-left: 12px;
                     padding-right: 12px;
-                }
-            }
-        }
-    }
-    // dark //
-    .dark {
-        .sm-horizontal {
-            background-color: $dark-body;
-            border-color: $dark-border;
-            .mobile-back {
-                border-color: $dark-border;
-                color: $white-3;
-            }
-            &.pixelstrap {
-                ul {
-                    background-color: $dark-body;
-                }
-            }
-        }
-        .tab-product {
-            .nav-material {
-                &.nav-tabs {
-                    background-color: $dark-body;
-                }
-            }
-        }
-        header {
-            &.left-header {
-                .pixelstrap {
-                    ul {
-                        background-color: $dark-top;
-                    }
-                }
-            }
-            &.header-gym {
-                .main-navbar {
-                    .nav-menu {
-                        background-color: $dark-body;
-                        >li {
-                            >a {
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-            .main-navbar {
-                .nav-menu {
-                    border-color: rgba(white, 0.17);
-                    .back-btn {
-                        .mobile-back {
-                            border-color: rgba(white, 0.17);
-                        }
-                    }
                 }
             }
         }
@@ -2627,56 +2559,6 @@ background-color: $black;*/
         .footer-light {
             .subscribe {
                 border-left: none;
-            }
-        }
-    }
-    // dark //
-    .dark {
-        .collection-filter {
-            background-color: $dark-body;
-        }
-        .collection-product-wrapper {
-            .product-top-filter {
-                .product-filter-content {
-                    .product-page-per-view,
-                    .product-page-filter {
-                        select {
-                            border-color: $dark-border;
-                        }
-                    }
-                }
-            }
-        }
-        .collection-mobile-back {
-            border-color: $dark-border;
-            span {
-                color: $dark-span;
-            }
-        }
-        .collection-collapse-block {
-            border-color: $dark-border !important;
-        }
-        .collection-filter {
-            box-shadow: none;
-        }
-        .contact-page {
-            .contact-right {
-                ul {
-                    li {
-                        border-color: $dark-border;
-                    }
-                }
-            }
-        }
-        .dashboard-left {
-            background-color: $dark-top;
-            box-shadow: none;
-        }
-        header {
-            &.header-tools {
-                .logo-menu-part {
-                    background-color: $dark-body;
-                }
             }
         }
     }
@@ -4179,23 +4061,6 @@ background-color: $black;*/
             }
         }
     }
-    // dark //
-    .dark {
-        .collection-product-wrapper {
-            .product-pagination {
-                .theme-paggination-block {
-                    nav {
-                        border-color: $dark-border;
-                    }
-                }
-            }
-        }
-        .product-pagination {
-            .pagination {
-                border-color: $dark-border;
-            }
-        }
-    }
 }
 
 @media (max-width: 577px) {
@@ -5392,40 +5257,6 @@ background-color: $black;*/
                         left: 0;
                     }
                 }
-            }
-        }
-    }
-    // dark //
-    .dark {
-        header {
-            &.header-gym {
-                background-color: #020202;
-            }
-        }
-        .collection-product-wrapper {
-            .product-top-filter {
-                .product-filter-content {
-                    .product-page-per-view {
-                        border-color: $dark-border !important;
-                    }
-                }
-            }
-        }
-        .tools-service {
-            &.absolute-banner {
-                .absolute-bg {
-                    box-shadow: none;
-                }
-            }
-        }
-        .full-banner {
-            .banner-contain {
-                background-color: rgba(0, 0, 0, 0.2);
-            }
-        }
-        .absolute-banner {
-            .absolute-bg {
-                box-shadow: none;
             }
         }
     }
