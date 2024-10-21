@@ -1204,7 +1204,7 @@ header {
         .closebtn {
             position: fixed;
             top: 10px;
-            right: 25px;
+            right: 68px;
             color: lighten($black, 46.5%);
             font-size: 40px;
             cursor: pointer;
@@ -5670,7 +5670,7 @@ ngx-loading-bar {
     cursor: pointer;
 
     &.top-cls {
-        bottom: 140px;
+        bottom: 50px;
     }
 }
 
