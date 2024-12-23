@@ -208,38 +208,11 @@ header {
                 &:hover {
                     >a {
                         color: var(--theme-deafult);
+                        cursor: pointer;
                     }
                 }
                 &.mega-menu {
                     position: unset;
-                }
-            }
-        }
-    }
-    &.header-gym {
-        .main-navbar {
-            .nav-menu {
-                >li {
-                    >a {
-                        color: white;
-                        padding-top: 22px;
-                        padding-bottom: 22px;
-                    }
-                }
-            }
-        }
-    }
-    &.header-tools {
-        .main-navbar {
-            .nav-menu {
-                >li {
-                    >a {
-                        padding-top: 25px;
-                        padding-bottom: 25px;
-                        .lable-nav {
-                            top: 0;
-                        }
-                    }
                 }
             }
         }

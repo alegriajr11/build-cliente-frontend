@@ -1711,21 +1711,7 @@
             line-height: 24px;
         }
     }
-    .footer-light {
-        .subscribe {
-            text-align: center;
-            justify-content: center;
-            border: none;
-            margin-bottom: 5px;
-            p {
-                display: none;
-            }
-        }
-        .subscribe-form {
-            justify-content: center;
-            margin-bottom: 0;
-        }
-    }
+    
     .footer-theme {
         .col {
             max-width: 50%;
@@ -2556,11 +2542,7 @@ background-color: $black;*/
                 }
             }
         }
-        .footer-light {
-            .subscribe {
-                border-left: none;
-            }
-        }
+
     }
 }
 
@@ -6606,13 +6588,7 @@ background-color: $black;*/
             }
         }
     }
-    .footer-light {
-        .subscribe-form {
-            .form-control {
-                width: 170px;
-            }
-        }
-    }
+    
     .white-layout {
         .small-section {
             .footer-theme2 {
