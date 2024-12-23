@@ -5324,6 +5324,32 @@ footer {
     }
 }
 
+.footer-light {
+    .subscribe {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        border-right: 1px solid $round-border;
+        text-align: left;
+
+        p {
+            line-height: 1;
+        }
+
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
+
+    .subscribe-form {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+    }
+}
+
+
 .subscribe {
     text-align: center;
 
@@ -11440,6 +11466,17 @@ body.rtl {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .footer-light {
+        .subscribe {
+            border-right: none;
+            border-left: 1px solid $round-border;
+
+            h4 {
+                text-align: right;
             }
         }
     }
