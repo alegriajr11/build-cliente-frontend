@@ -208,6 +208,7 @@ header {
                 &:hover {
                     >a {
                         color: var(--theme-deafult);
+                        cursor: pointer;
                     }
                 }
                 &.mega-menu {
